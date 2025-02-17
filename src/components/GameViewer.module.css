@@ -11,12 +11,8 @@
 }
 
 .scoreBug {
-	position: absolute;
-	right: 50%;
-	bottom: 50px;
-	transform: translateX(50%);
-
 	height: 130px;
+	/*width: 920px;*/
 	border-radius: 16px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
 	background-color: rgba(255, 255, 255, 0.2);
@@ -26,7 +22,8 @@
 	padding: 7px;
 
 	display: flex;
-	gap: 15px;
+	gap: 20px;
+	/*justify-content: space-between;*/
 
 	& p {
 		color: white;
@@ -37,6 +34,10 @@
 
 		display: flex;
 		align-items: center;
+	}
+
+	& img {
+		object-fit: cover;
 	}
 }
 
@@ -62,7 +63,7 @@
 	padding: 7px;
 
 	display: flex;
-	gap: 10px;
+	gap: 15px;
 	align-items: center;
 	justify-content: center;
 
